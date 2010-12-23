@@ -1,5 +1,5 @@
 ; $Id: earthen.info,v 1.1 2009/05/15 07:28:05 agileware Exp $
-name = JKS
+name = JohnKSawers.com
 description = Tableless, multi-column, fixed width theme
 screenshot = screenshot.png
 core = 6.x
