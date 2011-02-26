@@ -12,7 +12,7 @@
 
 // Replace 'adaptivetheme_subtheme' with your themes name, eg:
 // function your_themes_name_form_system_theme_settings_alter(&$form, &$form_state)
-function adaptivetheme_subtheme_form_system_theme_settings_alter(&$form, &$form_state)  {
+function ajohnksawers_form_system_theme_settings_alter(&$form, &$form_state)  {
 
   // Style Schemes
   /* -- Delete this line if you want to use Style Schemes

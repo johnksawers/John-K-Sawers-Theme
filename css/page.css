@@ -4,6 +4,7 @@
 
 #page{
 	background-color: #DDDFA3;
+	width: 960px;
 }
 
 #page > header {
@@ -61,6 +62,7 @@ h1#page-title {}
 /* Footer - the main page footer only */
 #page > footer {
 	background-color: #819282;
+	text-align: center;
 }
 
 /* Feed icons */
