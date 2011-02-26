@@ -1,8 +1,8 @@
-; $Id: earthen.info,v 1.1 2009/05/15 07:28:05 agileware Exp $
+; $Id: johnksawers.com.info,v 1.1 2009/05/15 07:28:05 agileware Exp $
 name = JohnKSawers.com
 description = Tableless, multi-column, fixed width theme
 screenshot = screenshot.png
-core = 6.x
+core = 7.x
 engine = phptemplate
 regions[right] = Right sidebar
 regions[content] = Content
@@ -15,8 +15,8 @@ features[] = mission
 features[] = comment_user_picture
 features[] = favicon
 ; Information added by drupal.org packaging script on 2009-05-19
-version = "6.x-1.0-beta2"
-core = "6.x"
+version = "1.1"
+core = "7.x"
 project = "JKS"
 datestamp = "1242716718"
 
