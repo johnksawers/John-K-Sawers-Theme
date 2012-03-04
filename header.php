@@ -35,7 +35,7 @@
       <?php roots_header_inside(); ?>
       <div class="container">
 
-        <a class="grid_16 blog_title" href="<?php echo home_url(); ?>/">
+        <a class="blog_title clearfix" href="<?php echo home_url(); ?>/">
           John K Sawers // Blog
         </a>
 

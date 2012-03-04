@@ -517,16 +517,29 @@ h1, h2, h3, h4, h5, h6 {
 
 h1{
   padding: 0 20px;
+  border-top: 1px solid red;
   border-bottom: 1px solid #CCCCCC;
 }
+
+header{
+  background-color: #E1E1E1;
+}
+
 #nav-main{
   width:100%;
+  position: relative;
 }
-#nav-main ul{
-  position: absolute;
-  top:-35px;
+header #nav-main ul{
   border-radius: 0;
-  background: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)) repeat scroll 0 0 #333333
+  background-color: #333333;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#666666), to(#333333)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #666666, #333333); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, #666666, #333333); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, #666666, #333333); /* IE10 */
+  background-image:      -o-linear-gradient(top, #666666, #333333); /* Opera 11.10+ */
+  background-image:         linear-gradient(to bottom, #6666666, #333333);
+
+  margin: 0;
 }
 #nav-main ul li a{
   color: orangeRed;
@@ -536,19 +549,20 @@ a.blog_title {
   font-size: 70px;
   text-decoration: none;
   color: orangeRed;
-  background: #E1E1E1;
-  line-height: 70px;
-  padding: 10px 20px;
-  margin: 0;
 }
 
 .pure_post_content{
   padding: 0 20px;
 }
 
+#banner{
+	margin-top: 0;
+	width: 920px;
+	left: -20px;
+}
+
 #main{
   background: #F5F5F5;
-  /*padding: 0 20px;*/
   margin: 0;
 }
 footer article {
@@ -556,6 +570,11 @@ footer article {
 }
 
 .widget {
-  margin-left: 20px;
-  border: 1px solid red;
+  border-top: 1px solid red;
+  padding-left: 20px;
+}
+
+#sidebar{
+	background-color: #E1E1E1;
+	margin: 0;
 }
